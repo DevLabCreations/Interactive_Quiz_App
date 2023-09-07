@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Test Your Knowledge</h1>
+        <div class="question">
+            <p>What is the capital of France?</p>
+            <ul class="options">
+                <li><input type="radio" name="q1" value="paris"> Paris</li>
+                <li><input type="radio" name="q1" value="london"> London</li>
+                <li><input type="radio" name="q1" value="berlin"> Berlin</li>
+                <li><input type="radio" name="q1" value="madrid"> Madrid</li>
+            </ul>
+        </div>
+        <div class="question">
+            <p>Which planet is known as the Red Planet?</p>
+            <ul class="options">
+                <li><input type="radio" name="q2" value="mars"> Mars</li>
+                <li><input type="radio" name="q2" value="earth"> Earth</li>
+                <li><input type="radio" name="q2" value="venus"> Venus</li>
+                <li><input type="radio" name="q2" value="jupiter"> Jupiter</li>
+            </ul>
+        </div>
+        <button id="submit-button">Submit Answers</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
